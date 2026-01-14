@@ -15,8 +15,8 @@ jobs:
           make
           make test
           
-    Test_Add:
-    runs-on: ubuntu-latest
+Test_Add:
+runs-on: ubuntu-latest
     needs: Compilation
     steps:
       - name: Test fonction add
